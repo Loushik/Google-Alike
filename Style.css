@@ -1,0 +1,154 @@
+/*Common for all elements*/
+
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;	
+	Display: block;
+	font-size: 13px;
+}
+
+nav{
+	padding-top: 5px;
+    padding-right: 23px;
+    padding-left: 10px;
+	list-style-type: none;
+	
+}
+
+li{
+	display: inline;
+    padding: 8px;
+    position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: rgba(0, 0, 0, .87);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+/*Header*/
+
+.top{
+	float: right;
+}
+
+#signin{
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    color: white;
+    padding: 0px 12px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: auto;
+    line-height: 28px;
+    border-radius: 2px;
+}
+	
+/*Main*/
+ 
+ main{
+	margin: auto;
+    width: 550px;
+    padding-top: 190px;
+ }
+ 
+ main img{
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+ }
+
+/*Main - Search*/
+ form{
+	padding: 0px;
+	margin: 0px;
+ }
+ #search{
+	border: 1px;
+    border-color: #f2f2f2;
+    box-shadow: 1px 1px 5px grey;
+	width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 0px;
+ }
+ 
+ #search:hover{
+	border: 2px;
+    border-color: grey;
+    box-shadow: 2px 2px 5px grey;
+ }
+ 
+ #mic{
+	display: block;
+    position: relative;
+    top: -32px;
+    left: 240px;
+} 
+
+/*Main - Buttons*/
+ 
+ #button{
+	margin-left: 25%;
+ }
+ 
+ #bleft:hover{
+	color: black;
+ }
+
+ #bright:hover{
+	color: black;
+ }
+ 
+ #bleft, #bright{
+	display: inline;
+    margin: 5px 3px;
+    height: 35px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    font-size: small;
+    font-weight: bold;
+    color: #757575;
+    line-height: 0;
+	padding: 14px;
+}
+ 
+/*Footer*/
+ 
+ footer{
+	background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+ }
+ 
+ footer nav ul li a{
+	padding-left: 8px;
+    color: rgba(0, 0, 0, 0.67);
+    vertical-align: sub;
+ }
+ 
+ .right{
+	float: right;
+    margin: 0;
+    padding-right: 28px;
+    display: inline-block;
+ }
+ 
+ .left{
+	margin: 0;
+    padding-right: 28px;
+    display: inline-block;
+ }
